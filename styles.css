@@ -1,0 +1,110 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 20px auto;
+    max-width: 960px; /* Increased max-width slightly for wider content */
+    padding: 0 15px;
+    background-color: #fcfcfc; /* A very light off-white */
+    color: #333;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 30px;
+    padding-bottom: 15px; /* Add some padding below header */
+    border-bottom: 1px solid #eee; /* A subtle line under the header */
+}
+
+h1 {
+    color: #0056b3;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    margin-bottom: 8px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    margin-top: 40px;
+    border-top: 1px solid #eee;
+    padding-top: 20px;
+    text-align: center;
+    font-size: 0.9em;
+    color: #666;
+}
+
+footer nav a {
+    margin: 0 10px;
+    color: #666;
+}
+
+/* Lasagna Recipe Page Specific Styles */
+h2 {
+    color: #a0522d; /* Sienna, a warm earthy tone */
+    margin-top: 25px;
+    margin-bottom: 10px;
+    border-bottom: 1px dashed #dcdcdc; /* Subtle dashed line for subheadings */
+    padding-bottom: 5px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+ul, ol {
+    margin-left: 25px;
+    margin-bottom: 15px;
+}
+
+ul li {
+    margin-bottom: 5px;
+}
+
+ol li {
+    margin-bottom: 10px;
+}
+
+p {
+    margin-bottom: 10px;
+}
+
+/* Style for the "Home" link on recipe pages */
+header a[href="../index.html"] {
+    display: inline-block; /* Treat as a block for padding/margin */
+    background-color: #4CAF50; /* Green button color */
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: normal; /* Override bold from general nav a */
+    margin-bottom: 20px;
+    transition: background-color 0.3s ease;
+}
+
+header a[href="../index.html"]:hover {
+    background-color: #45a049;
+    text-decoration: none; /* Keep no underline on hover */
+}
